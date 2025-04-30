@@ -1,0 +1,1 @@
+source "/home/knichian/github/emsdk/emsdk_env.sh"
