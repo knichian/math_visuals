@@ -1,4 +1,5 @@
---- 
-### Project:
-  - Interactive visualizations for math concepts
---- 
+# Project  
+
+---  
+
+- Interactive visualizations for math concepts
