@@ -10,7 +10,10 @@ all: build run
 
 build: src/main.c
 	# source ./activate_emcc.sh
-	emcc -Os -Wall -I$(INCLUDES_FOLDER) -o $(OUT_PATH) ./src/main.c $(STATIC_LIB_PATH) -s USE_GLFW=3 --shell-file $(SHELL_FILE_PATH) -DPLATFORM_WEB
+	emcc -Os -Wall -I$(INCLUDES_FOLDER) $(STATIC_LIB_PATH) -s USE_GLFW=3 --shell-file $(SHELL_FILE_PATH) -DPLATFORM_WEB -o $(OUT_PATH) ./src/main.c
 
 run:
 	cd bin && python -m http.server
+
+clear:
+	rm -r bin/*
