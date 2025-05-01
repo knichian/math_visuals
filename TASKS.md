@@ -10,6 +10,7 @@
     - [x] run the emsdk installer
     - [x] make a script for emcc quick-activation
   - [x] clone raylib as a dependency (submodule)
-  - [ ] compile Raylib to wasm
-  - [ ] compile the the wasm exemples
-    - [ ] make a prototype code to test compiling (a "hello-world" of sorts)
+  - [x] compile Raylib to wasm
+  - [x] compile the the wasm exemples
+  - [ ] make a prototype code to test compiling (a "hello-world" of sorts)
+    - [ ] a "hello window"
