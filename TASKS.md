@@ -19,9 +19,9 @@
     - [x] create a rule to involke build & run
     - [x] refine the build rule to use variables
     - [x] create a clear rule
+    - [x] compatimentalize projects
+      - [x] make the main project the "hello-friend" project
   - [ ] recompile raylib web with support for async
-  - [ ] compatimentalize projects
-    - [ ] make the main project the "hello-friend" project
   - [ ] make a "pong" game to test development in it.
     - [ ] draw a rect
     - [ ] align to the left
